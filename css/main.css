@@ -1,0 +1,159 @@
+/* Color Scheme 1
+	Orange FFAD3D
+	Yellow FFD73D
+	Red FF623D
+	Blue 4AADFF
+	
+	Color Scheme 2
+	Bat color #ab917a
+	table color #728596 363e4b
+	Crust color  #dad3c9
+	Yellow apple #f1e9a0
+	Green apple #b8d9a2
+	Red apple #bc3a46
+*/
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+margin: 0;
+}
+
+h1
+{
+font-family: 'Macondo', cursive;
+font-size: 60px;
+text-align: center;
+color: #dad3c9;
+text-shadow: -3px 2px 4px #111; 
+
+}
+
+h2{
+font-family: 'Macondo', cursive;
+font-size: 40px;
+text-Align: center;
+text-shadow: -1px 1px 2px #111;
+color: #dad3c9;
+padding: 20px 0;
+}
+
+h3{
+font-family: 'Macondo', cursive;
+font-size: 30px;
+text-Align: center;
+text-shadow: -1px 1px 2px #111;
+color: #dad3c9;
+}
+
+
+p{
+font-family: helvetica, sans-serif;
+}
+
+#header{
+background-color: #bc3a46;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+
+}
+
+
+#headline{
+background-color: #ab917a;
+height: 310px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+#footer{
+clear: right;
+background-color: #dad3c9;
+
+}
+
+body{
+width: 900px;
+margin: 0 auto;
+padding: 0;
+}
+
+#feature{
+ float: left;
+ padding: 20px 10px;
+ }
+
+#pie{
+padding: 20px 5px;
+}
+
+#pie p{
+font-size: 28px;
+padding: 5px 0px;
+color: #FFF;
+}
+
+#apples{
+padding: 0;
+float: left;
+}
+
+.pieparts{
+width: 400px;
+padding: 20px 15px;
+float: left;
+}
+
+.pieparts p{
+color: #646464;
+font-size: 23px;
+padding: 10px 15px;
+}
+
+.pieparts ol li{
+color: #bc3a46;
+font-family: 'Macondo', cursive;
+font-size: 23px;
+
+}
+
+.clearfix{
+clear: left;
+}
+ 
+article{
+width: 696px;
+height:300px;
+margin: 30px 0;
+border: 1px solid #5f9432;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+float: right;
+}
+
+article p{
+color: #646464;
+font-size: 23px;
+padding: 5px 15px;
+}
+
+
+aside{
+width: 200px;
+height: 270px;
+background-color: #b8d9a2;
+border: 1px solid #5f9432;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+margin: 30px 0;
+padding: 15px 0;
+}
+
+aside h3{
+color: #f1e9a0;
+
+padding: 15px px;
+}
+
+aside p{
+color: #FFF;
+padding: 10px 15px;
+font-size: 17px;
+}
