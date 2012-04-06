@@ -1,78 +1,106 @@
-/* Color Scheme 1
-	Orange FFAD3D
-	Yellow FFD73D
-	Red FF623D
-	Blue 4AADFF
-	
-	Color Scheme 2
-	Bat color #ab917a
-	table color #728596 363e4b
+/* Color Scheme
 	Crust color  #dad3c9
 	Yellow apple #f1e9a0
 	Green apple #b8d9a2
 	Red apple #bc3a46
 */
-h1,h2,h3,h4,h5,h6,p,ul,ol{
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
 margin: 0;
+padding: 0;
+font-family: 'Macondo', cursive;
+text-align: center;
+color: #dad3c9;
 }
 
 h1
 {
-font-family: 'Macondo', cursive;
 font-size: 60px;
-text-align: center;
-color: #dad3c9;
-text-shadow: -3px 2px 4px #111; 
-
+text-shadow: -1px 1px 2px #111; 
 }
 
 h2{
-font-family: 'Macondo', cursive;
 font-size: 40px;
-text-Align: center;
-text-shadow: -1px 1px 2px #111;
-color: #dad3c9;
 padding: 20px 0;
+text-shadow: -1px 1px 2px #111; 
 }
 
 h3{
-font-family: 'Macondo', cursive;
 font-size: 30px;
-text-Align: center;
-text-shadow: -1px 1px 2px #111;
-color: #dad3c9;
+text-shadow: -1px 1px 2px #111; 
 }
-
 
 p{
 font-family: helvetica, sans-serif;
 }
 
 #header{
+height: 90px;
 background-color: #bc3a46;
 border-top-right-radius: 10px;
 border-top-left-radius: 10px;
-
 }
-
 
 #headline{
 background-color: #ab917a;
-height: 310px;
+height: 380px;
 border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
 }
 
-#footer{
+footer{
 clear: right;
-background-color: #dad3c9;
-
+height: 100px;
+background-color: #bc3a46;
+border-radius: 10px;
 }
 
 body{
 width: 900px;
 margin: 0 auto;
 padding: 0;
+}
+
+#logo{
+
+}
+
+nav{
+padding: 10px 0 0 0;
+}
+
+nav ul{
+float: right;
+list-style: none;
+padding: 15px 10px;
+}
+
+nav li{
+font-size: 30px;
+display: inline;
+list-style-type: none;
+padding: 0;
+}
+
+nav li a{
+margin: 0;
+text-decoration: none;
+background-color: #bc3a46;
+background: -webkit-gradient(linear, left top, left bottom, from(#bc3a46), to(#ac0a19));
+background: -moz-linear-gradient(top,  #bc3a46,  #ac0a19);
+border: 1px solid #8c1721;
+border-radius: 5px;
+color: #dad3c9;
+padding: 20px 10px;
+text-shadow: -1px 1px 2px #111;
+}
+
+nav li a:hover{
+background: -webkit-gradient(linear, left top, left bottom, from(#ac0a19), to(#bc3a46));
+background: -moz-linear-gradient(top,  #ac0a19, #bc3a46);
+}
+
+nav li a:hover{
+background-color: #ac0a19;
 }
 
 #feature{
@@ -107,22 +135,41 @@ font-size: 23px;
 padding: 10px 15px;
 }
 
+.pieparts ol{
+padding: 0 50px;
+}
+
 .pieparts ol li{
 color: #bc3a46;
-font-family: 'Macondo', cursive;
 font-size: 23px;
-
+padding: 0 30px;
+list-style: none;
+background-image: url(../images/apple_bullet.png);
+background-repeat: no-repeat;
+background-position: left center;
 }
 
 .clearfix{
 clear: left;
 }
- 
+
+#pan{
+padding: 25px;
+}
+
+#pantypes p{
+color: #646464;
+}
+
+#pantypes{
+-moz-column-count: 3;
+}
+
 article{
 width: 696px;
 height:300px;
 margin: 30px 0;
-border: 1px solid #5f9432;
+border: 1px solid #5d4401;
 border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 float: right;
@@ -132,14 +179,15 @@ article p{
 color: #646464;
 font-size: 23px;
 padding: 5px 15px;
+opacity: 0.75;
 }
 
 
 aside{
 width: 200px;
 height: 270px;
-background-color: #b8d9a2;
-border: 1px solid #5f9432;
+background-color: #ab917a;
+border: 1px solid #5d4401;
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 margin: 30px 0;
@@ -147,7 +195,7 @@ padding: 15px 0;
 }
 
 aside h3{
-color: #f1e9a0;
+color: #dad3c9;
 
 padding: 15px px;
 }
@@ -156,4 +204,35 @@ aside p{
 color: #FFF;
 padding: 10px 15px;
 font-size: 17px;
+}
+
+footer p{
+padding: 20px;
+color: #fff;
+}
+
+footer li{
+font-size: 20px;
+display: inline;
+list-style-type: none;
+padding: 0px;
+}
+
+footer li a{
+margin: 0;
+text-decoration: none;
+background-color: #bc3a46;
+background: -webkit-gradient(linear, left top, left bottom, from(#bc3a46), to(#ac0a19));
+background: -moz-linear-gradient(top,  #bc3a46,  #ac0a19);
+border: 1px solid #8c1721;
+border-radius: 5px;
+color: #dad3c9;
+text-shadow: -1px 1px 2px #111;
+padding: 5px 20px;
+}
+
+footer li a:hover{
+background-color: #ac0a19;
+background: -webkit-gradient(linear, left top, left bottom, from(#ac0a19), to(#bc3a46));
+background: -moz-linear-gradient(top,  #ac0a19, #bc3a46);
 }
