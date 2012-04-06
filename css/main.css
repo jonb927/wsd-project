@@ -179,7 +179,7 @@ article p{
 color: #646464;
 font-size: 23px;
 padding: 5px 15px;
-opacity: 0.75;
+opacity: 0.65;
 }
 
 
@@ -204,6 +204,46 @@ aside p{
 color: #FFF;
 padding: 10px 15px;
 font-size: 17px;
+}
+
+#gallery{
+height: 200px;
+
+}
+
+#gallery ul{
+padding: 0 15px;
+list-style-type: none;
+}
+
+#gallery li{
+float: left;
+
+margin: 25px;
+}
+
+#gallery li a{
+display: block;
+padding: 8px 8px;
+background-color: #bc3a46;
+}
+
+#gallery li a:link{
+background-color: #bc3a46;
+}
+
+#gallery li a:visited{
+background-color: #b8d9a2;
+
+}
+
+#gallery li a:hover{
+background-color: #dad3c9;
+
+}
+
+#gallery li a:active{
+background-color: #646464;
 }
 
 footer p{
