@@ -1,0 +1,4 @@
+gh-pages url
+http://jonb927.github.com/wsd-project/index.html
+git hub master repository
+https://jonb927@github.com/jonb927/wsd-project.git
