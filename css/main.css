@@ -4,6 +4,8 @@
 	Green apple #b8d9a2
 	Red apple #bc3a46
 */
+
+/* Main tags and div sections ************************************ */
 h1,h2,h3,h4,h5,h6,p,ul,ol,li{
 margin: 0;
 padding: 0;
@@ -59,11 +61,7 @@ width: 900px;
 margin: 0 auto;
 padding: 0;
 }
-
-#logo{
-
-}
-
+/* Navigation ********************************* */
 nav{
 padding: 10px 0 0 0;
 }
@@ -102,7 +100,7 @@ background: -moz-linear-gradient(top,  #ac0a19, #bc3a46);
 nav li a:hover{
 background-color: #ac0a19;
 }
-
+/* featured headline ********************************************* */
 #feature{
  float: left;
  padding: 20px 10px;
@@ -116,11 +114,6 @@ padding: 20px 5px;
 font-size: 28px;
 padding: 5px 0px;
 color: #FFF;
-}
-
-#apples{
-padding: 0;
-float: left;
 }
 
 .pieparts{
@@ -152,7 +145,7 @@ background-position: left center;
 .clearfix{
 clear: left;
 }
-
+/* newspaper style paragraphs and factoids******************************** */
 #pan{
 padding: 25px;
 }
@@ -205,7 +198,7 @@ color: #FFF;
 padding: 10px 15px;
 font-size: 17px;
 }
-
+/* Gallery and Footer ****************************************** */
 #gallery{
 height: 200px;
 
