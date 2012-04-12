@@ -9,31 +9,38 @@
 h1,h2,h3,h4,h5,h6,p,ul,ol,li{
 margin: 0;
 padding: 0;
-font-family: 'Macondo', cursive;
 text-align: center;
 color: #dad3c9;
 }
 
+body{
+font: 100%/1.5 "Macondo", cursive;
+max-width: 900px;
+margin: 0 auto;
+padding: 0;
+}
+
 h1
 {
-font-size: 60px;
+font-size: 3.75em; /* 60px */
 text-shadow: -1px 1px 2px #111; 
 }
 
 h2{
-font-size: 40px;
-padding: 20px 0;
+font-size: 2.5em; /*40px*/
+padding: 1.111111% 0; /*10px 0;*/
 text-shadow: -1px 1px 2px #111; 
 }
 
 h3{
-font-size: 30px;
+font-size: 1.875em; /*30px*/
 text-shadow: -1px 1px 2px #111; 
 }
 
 p{
 font-family: helvetica, sans-serif;
 }
+
 
 #header{
 height: 90px;
@@ -56,24 +63,26 @@ background-color: #bc3a46;
 border-radius: 10px;
 }
 
-body{
-width: 900px;
-margin: 0 auto;
-padding: 0;
+#logo{
+float: left;
 }
+
 /* Navigation ********************************* */
 nav{
-padding: 10px 0 0 0;
+padding: 1.111111% 0 0 0; /*10px 0 0 0 0*/
 }
 
 nav ul{
-float: right;
-list-style: none;
-padding: 15px 10px;
+width: 80%;
+list-style-type: none;
+margin: 0 auto;
+padding: 1.666667% 1.111111%; /* 15px 10px; */
+overflow: hidden;
 }
 
 nav li{
-font-size: 30px;
+width: 33.333333%;
+font-size: 1.875em; /*30px*/
 display: inline;
 list-style-type: none;
 padding: 0;
@@ -88,7 +97,8 @@ background: -moz-linear-gradient(top,  #bc3a46,  #ac0a19);
 border: 1px solid #8c1721;
 border-radius: 5px;
 color: #dad3c9;
-padding: 20px 10px;
+line-height: 45px;
+padding: 2.222222% 1.111111%; /*20px 10px;*/
 text-shadow: -1px 1px 2px #111;
 }
 
@@ -102,40 +112,49 @@ background-color: #ac0a19;
 }
 /* featured headline ********************************************* */
 #feature{
+ width: 44.444444%; /* 400px */
+ padding: 1.111111%; /* 10px; */
  float: left;
- padding: 20px 10px;
  }
+ 
+ #feature img{
+ width: 100%;
+ }
+ 
 
 #pie{
-padding: 20px 5px;
+padding: 2.222222% 0.555556%; /*20px 5px;*/
 }
 
 #pie p{
-font-size: 28px;
-padding: 5px 0px;
+
+font-size: 1.5em; /*24px;*/
+text-align: left;
+padding: 0.555556% 0; /* 5px 0px; */
 color: #FFF;
 }
 
 .pieparts{
-width: 400px;
-padding: 20px 15px;
+width: 44.444444%; /* 400px; */
+padding: 2.222222% 1.666667%; /*20px 15px;*/
 float: left;
 }
 
 .pieparts p{
 color: #646464;
-font-size: 23px;
-padding: 10px 15px;
+font-size: 1.4375em; /*23px*/
+text-align: left;
+padding: 1.111111% 1.666667%; /* 10px 15px; */
 }
 
 .pieparts ol{
-padding: 0 50px;
+padding: 0 12.5%; /* 0 50px; */
 }
 
 .pieparts ol li{
 color: #bc3a46;
-font-size: 23px;
-padding: 0 30px;
+font-size: 1.4375em; /*23px*/
+padding: 0 7.5%; /* 0 30px; */
 list-style: none;
 background-image: url(../images/apple_bullet.png);
 background-repeat: no-repeat;
@@ -147,11 +166,12 @@ clear: left;
 }
 /* newspaper style paragraphs and factoids******************************** */
 #pan{
-padding: 25px;
+padding: 2.777778%; /*25px;*/
 }
 
 #pantypes p{
 color: #646464;
+text-align: left;
 }
 
 #pantypes{
@@ -159,44 +179,42 @@ color: #646464;
 }
 
 article{
-width: 696px;
+width: 77.333333%; /* 696px; */
 height:300px;
-margin: 30px 0;
-border: 1px solid #5d4401;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
+margin: 3.333333% 0; /* 30px 0; */
 float: right;
 }
 
 article p{
 color: #646464;
-font-size: 23px;
+font-size: 1.1875em; /*19px*/
+text-align: left;
 padding: 5px 15px;
 opacity: 0.65;
 }
 
 
 aside{
-width: 200px;
+width: 22.222222%; /* 200px; */
 height: 270px;
 background-color: #ab917a;
-border: 1px solid #5d4401;
 border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-margin: 30px 0;
-padding: 15px 0;
+border-bottom-right-radius: 10px;
+margin: 3.333333% 0; /* 30px 0; */
+padding: 1.666667% 0; /* 15px 0; */
 }
 
 aside h3{
 color: #dad3c9;
-
-padding: 15px px;
+line-height: 1.0;
+padding:2.5% 0; /* 5px 0; */
 }
 
 aside p{
 color: #FFF;
-padding: 10px 15px;
-font-size: 17px;
+text-align: left;
+padding: 5% 7.5%; /* 10px 15px; */
+font-size: 0.9375em /* 17px; */
 }
 /* Gallery and Footer ****************************************** */
 #gallery{
@@ -205,7 +223,8 @@ height: 200px;
 }
 
 #gallery ul{
-padding: 0 15px;
+width: 97.222222%;
+padding: 0 1.666667%; /* 0 15px; */
 list-style-type: none;
 }
 
@@ -240,19 +259,23 @@ background-color: #646464;
 }
 
 footer p{
-padding: 20px;
+padding: 1.666667%; /* 15px; */
 color: #fff;
 }
 
+footer ul{
+width: 94.444444%;
+margin: 0 auto;
+}
+
 footer li{
-font-size: 20px;
+font-size: 1.25em; /*20px*/
 display: inline;
 list-style-type: none;
 padding: 0px;
 }
 
 footer li a{
-margin: 0;
 text-decoration: none;
 background-color: #bc3a46;
 background: -webkit-gradient(linear, left top, left bottom, from(#bc3a46), to(#ac0a19));
@@ -261,11 +284,190 @@ border: 1px solid #8c1721;
 border-radius: 5px;
 color: #dad3c9;
 text-shadow: -1px 1px 2px #111;
-padding: 5px 20px;
+padding: 0.555556% 2.222222%; /* 5px 20px; */
 }
 
 footer li a:hover{
 background-color: #ac0a19;
 background: -webkit-gradient(linear, left top, left bottom, from(#ac0a19), to(#bc3a46));
 background: -moz-linear-gradient(top,  #ac0a19, #bc3a46);
+}
+
+/* Media Queries 
+Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width:959px){
+	body{
+	background-color: #acc;
+	}
+	
+	#pie p{
+	font-size: 1.25em; /* 20px */
+	}
+}
+
+/* Media Queries 
+Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width:767px){
+	body{
+	background-color: #1a3;
+	}
+	
+	h1{
+	font-size: 2.5em; /*40px*/
+	}
+	
+	h2{
+	font-size: 1.875em; /*30px*/
+	padding: 0;
+	}
+	
+	#logo{
+	display: none;
+	}
+	
+	#headline{
+	height: 420px;
+	}
+	
+	#feature{
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+	}
+
+	nav li{
+	font-size: 1.5625em; /*20px*/
+	}
+
+	#pie p{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 1.125em; /* 20px */
+	padding: 0;
+	}
+	
+	.pieparts p{
+	font-size: 1.25em; /* 20px */
+    }
+	
+	.pieparts ol li{
+	font-size: 1.125em; /* 20px */
+	}
+
+
+}
+
+/* Media Queries 
+Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px){
+	body{
+	background-color: #3ba;
+	}
+	
+	h1{
+	font-size: 2.1875em; /*35px*/
+	}
+	
+	h2{
+	font-size: 1.875em; /*30px*/
+	padding: 0;
+	}
+	
+	#header{
+	height: 65px;
+	}
+	
+	
+	#logo{
+	display: none;
+	}
+	
+	#headline{
+	height: 420px;
+	}
+	
+	#feature{
+	float: none;
+	margin: 0 auto;
+	padding: 0;
+	}
+	nav li{
+	font-size: 1.25em; /*20px*/
+	}
+	
+	nav li a{
+	background-color: none;
+	background: none;
+	border: none;
+	}
+
+	nav li a:hover{
+	background:none;
+	color: #fff;
+	}	
+	
+	#pie p{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 1.125em; /* 20px */
+	padding: 0;
+	}
+	
+	.pieparts{
+	width: 80%;
+	margin: 0 auto;
+	float: none;
+    }
+    
+    .pieparts p{
+	font-size: 1.125em; /* 20px */
+    }
+	
+	.pieparts ol li{
+	font-size: 1em; /* 20px */
+    }
+    
+	#pantypes{
+	-moz-column-count: 1;
+	}
+	
+	#pantypes p{
+	width: 80%;
+	margin: 0 auto;
+	}
+
+	article{
+width: 80%; 
+margin: 0 auto;
+float: none;
+}
+
+article p{
+display: none;
+}
+
+article h3{
+border-top: 1px solid #343434;
+border-bottom: 1px solid #343434;
+}
+
+
+aside{
+width: 80%;
+margin: 0 auto;
+background-color: none;
+
+}
+
+aside h3{
+color: #dad3c9;
+border-bottom: 1px solid #343434;
+line-height: 1.0;
+
+}
+
+aside p{
+display: none;
+}
+	
 }
