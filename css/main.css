@@ -51,6 +51,7 @@ height: 70px;
 background-color: #ab917a;
 background-image: url(../images/bg1.jpg);
 border-radius: 10px;
+box-shadow: 0px 3px 3px #000;
 margin: 2.222222% 0;
 padding: 1.111111%;
 
@@ -63,6 +64,7 @@ background-color: #bc3a46;
 background: -webkit-gradient(linear, left top, left bottom, from(#bc3a46), to(#ac0a19));
 background: -moz-linear-gradient(top,  #bc3a46,  #ac0a19);
 border-radius: 10px;
+box-shadow: 0px 3px 3px #000;
 margin:1.111111% 0; /*10px 0*/
 }
 
@@ -70,6 +72,7 @@ margin:1.111111% 0; /*10px 0*/
 float: left;
 margin: 10px 0;
 border-radius: 10px;
+box-shadow: 0px 3px 3px #000;
 
 }
 
@@ -83,6 +86,7 @@ background: -webkit-gradient(linear, left top, left bottom, from(#bc3a46), to(#a
 background: -moz-linear-gradient(top,  #bc3a46,  #ac0a19);
 list-style-type: none;
 border-radius: 10px;
+box-shadow: 0px 3px 3px #000;
 margin: 0 auto;
 /* padding: 1.666667% 1.111111%; 15px 10px; */
 overflow: hidden;
@@ -509,10 +513,11 @@ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	
 	#gallery{
 	background-image: url(../images/bg1.jpg);
-border-radius: 10px;
-margin: 2.222222% 0;
-padding: 1.111111%;
+	border-radius: 10px;
+	margin: 2.222222% 0;
+	padding: 1.111111%;
 	height: 100%;
+	box-shadow: 0px 3px 3px #000;
 	}
 	
 	#gallery ul{
