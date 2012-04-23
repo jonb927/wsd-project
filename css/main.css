@@ -45,6 +45,7 @@ font-family: helvetica, sans-serif;
 
 #header{
 height: 70px;
+margin: 2.222222% 2%;
 }
 
 #headline,#main{
@@ -52,7 +53,7 @@ background-color: #ab917a;
 background-image: url(../images/bg1.jpg);
 border-radius: 10px;
 box-shadow: 0px 3px 3px #000;
-margin: 2.222222% 0;
+margin: 2.222222% 2%;
 padding: 1.111111%;
 
 }
@@ -65,12 +66,12 @@ background: -webkit-gradient(linear, left top, left bottom, from(#bc3a46), to(#a
 background: -moz-linear-gradient(top,  #bc3a46,  #ac0a19);
 border-radius: 10px;
 box-shadow: 0px 3px 3px #000;
-margin:1.111111% 0; /*10px 0*/
+margin:1.111111% 2%; /*10px 0*/
 }
 
 #logo{
 float: left;
-margin: 10px 0;
+margin: 10px 2%;
 border-radius: 10px;
 box-shadow: 0px 3px 3px #000;
 
@@ -207,8 +208,10 @@ opacity: 0.65;
 
 
 aside{
-width: 22.222222%; /* 200px; */
-background-color: #ab917a;
+width: 22.222222%; /* 200px; 
+background-color: #ab917a;*/
+background: -moz-radial-gradient(15% 25%, cover, #d2ac84, #ab917a);
+box-shadow: 0 1px 3px #444;
 border-top-left-radius: 40px;
 border-bottom-right-radius: 40px;
 margin: 3.333333% 0; /* 30px 0; */
@@ -514,7 +517,7 @@ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	#gallery{
 	background-image: url(../images/bg1.jpg);
 	border-radius: 10px;
-	margin: 2.222222% 0;
+	margin: 2.222222% 2%;
 	padding: 1.111111%;
 	height: 100%;
 	box-shadow: 0px 3px 3px #000;
@@ -542,6 +545,7 @@ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	
 	footer li{
 	font-size: .8em;
+	margin: 0% 2%;
 	}
 	
 	
