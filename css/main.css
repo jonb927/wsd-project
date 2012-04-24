@@ -59,7 +59,7 @@ padding: 1.111111%;
 }
 
 footer{
-clear: right;
+clear: both;
 height: 100px;
 background-color: #bc3a46;
 background: -webkit-gradient(linear, left top, left bottom, from(#bc3a46), to(#ac0a19));
@@ -273,6 +273,52 @@ opacity: 1;
 
 #gallery li a:active{
 opacity: 0.8;
+}
+
+
+#membership p{
+padding: 1% 0;
+text-align: left;
+font-size: 1em;
+color: #000;
+}
+
+table{
+width: 42.222222%;
+border-collapse: collapse;
+margin: 2.222222% 2%;
+padding: 1.111111%;
+float:right;
+}
+
+th{
+text-align: center;
+Background-color: #fff;
+}
+
+
+td{
+text-align: center;
+border: 1px solid black;
+padding: .2em;
+}
+
+form{
+margin: 1.111111% 2%;
+padding: 1.111111%;
+float:left;
+}
+
+input{
+margin: 0;
+}
+
+
+input[type=radio]{
+}
+
+input[type=text]{
+width:80%;
 }
 
 footer p{
