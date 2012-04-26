@@ -42,7 +42,7 @@ h4{
 font-size: 1.5em; 
 text-shadow: -1px 1px 2px #111; 
 color: #fff9f2;
-border-bottom: 1px dotted #c8e5b5;
+border-bottom: 2px dotted #c8e5b5;
 }
 
 p{
@@ -345,7 +345,7 @@ text-align: center;
 text-shadow: 0 1px 1px #56340e;
 font-size: 1.25em;
 padding: 2%;
-border-bottom: 1px dotted #e6ccb0;
+border-bottom: 2px dotted #e6ccb0;
 }
 
 
@@ -358,47 +358,9 @@ color: #56340e;
 }
 
 .free{
-border-right: 1px dotted #e6ccb0;
-}
-/*
-#fmem{
-text-shadow: 0 1px 1px #333;
-border-top-left-radius: 75%;
-border-top-right-radius: 75%;
-background-color: #f1e9a0;
+border-right: 2px dotted #e6ccb0;
 }
 
-
-
-#fmemlast{
-text-shadow: 0 1px 1px #333;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius: 10px;
-background-color: #b8d9a2;
-color: #fff;
-}
-
-#emem{
-text-shadow: 0 1px 1px #333;
-border-top-left-radius: 75%;
-border-top-right-radius: 75%;
-background-color: #edd8c1;
-}
-
-.exclusive{
-text-shadow: 0 1px 1px #333;
-Background-color: #8d4c00;
-color: #fff;
-}
-
-#ememlast{
-text-shadow: 0 1px 1px #333;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius: 10px;
-background-color: #8d4c00;
-color: #fff;
-}
-*/
 form{
 width: 45%;
 margin: 1% 2%;
