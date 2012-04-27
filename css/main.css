@@ -49,7 +49,6 @@ p{
 font-family: helvetica, sans-serif;
 }
 
-
 #header{
 height: 70px;
 margin: 2.222222% 2%;
@@ -62,7 +61,6 @@ border-radius: 10px;
 box-shadow: 0px 2px 3px #730e0e;
 margin: 2.222222% 2%;
 padding: 1.111111%;
-
 }
 
 footer{
@@ -81,7 +79,6 @@ float: left;
 margin: 10px 2%;
 border-radius: 10px;
 box-shadow: 0px 2px 3px #730e0e;
-
 }
 
 /* Navigation ********************************* */
@@ -135,19 +132,18 @@ opacity: 0.5;
  width: 33.333333%; /* 400px */
  padding: 1.111111%; /* 10px; */
  float: left;
- }
+}
  
  #feature img{
  width: 100%;
- }
+ box-shadow: 0 2px 2px #333;
+}
  
-
 #pie{
 /*padding: 2.222222% 0.555556%; 20px 5px;*/
 }
 
 #pie p{
-
 font-size: 1.5em; /*24px;*/
 text-align: left;
 padding: 0.555556% 0; /* 5px 0px; */
@@ -160,7 +156,6 @@ text-shadow: 0 1px 1px #333;
 color: #bc3a46;
 margin: 1%;
 }
-
 
 span a{
 width: 10%;
@@ -220,6 +215,7 @@ background-position: left center;
 .clearfix{
 clear: left;
 }
+
 /* newspaper style paragraphs and factoids******************************** */
 #pan{
 padding: 2.777778%; /*25px;*/
@@ -249,7 +245,6 @@ padding: 5px 15px;
 opacity: 0.65;
 }
 
-
 aside{
 width: 22.222222%; /* 200px; 
 background-color: #ab917a;*/
@@ -273,6 +268,7 @@ text-align: left;
 padding: 5% 7.5%; /* 10px 15px; */
 font-size: 0.9375em /* 17px; */
 }
+
 /* Gallery and Footer ****************************************** */
 #gallery{
 height: 200px;
@@ -306,12 +302,10 @@ list-style: none;
 
 #gallery li a:visited{
 opacity: 0.3;
-
 }
 
 #gallery li a:hover{
 opacity: 1;
-
 }
 
 #gallery li a:active{
@@ -422,10 +416,6 @@ background-color: #edd8c1;
 box-shadow: inset 0 1px 1px #56340e;
 }
 
-input[type=radio]{
-
-}
-
 footer p{
 padding: 1.666667%; /* 15px; */
 color: #fff;
@@ -499,11 +489,8 @@ Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	#logo{
 	display: none;
 	}
-	/*
-	#headline{
-	height: 420px;
-	}
-	*/
+	
+	
 	#feature{
 	float: none;
 	margin: 0 auto;
@@ -556,8 +543,36 @@ Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	padding:1.111111%;
 	}
 	
+	#membership p{
+	font-size: 1em;
+	}
 	
-
+	table{
+	width: 75%;
+	float: none;
+	margin: 0 auto;
+	border-radius: 5%;
+	
+	}
+	
+	form{
+	width: 73%;
+	margin: 3% auto;
+	padding: 2.222222
+	border-radius: none;
+	border-radius: 5%;
+	box-shadow: -1px 1px 2px #333;
+	}
+	
+	input[type=text]{
+	width: 90%;
+	margin: 0 5%;
+	}
+	
+	footer li{
+	font-size: 1em;
+	margin: 0% auto;
+	}
 }
 
 /* Media Queries 
@@ -592,6 +607,11 @@ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	#feature{
 	display: none;
 	}
+	
+	#join{
+	font-size: 1.2em;
+	}
+	
 	nav li{
 	font-size: 1.25em; /*20px*/
 	}
@@ -614,6 +634,12 @@ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	padding: 0;
 	}
 	
+	.ingredients{
+	border-bottom: 1px solid #000;
+	font-size: 1.5em;
+	padding: 3%;
+	}
+	
 	.pieparts{
 	width: 80%;
 	margin: 0 auto;
@@ -621,13 +647,16 @@ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
     }
     
     .pieparts p{
+    display: none;
 	font-size: 1.125em; /* 20px */
     }
 	
-	.pieparts ol li{
+	.pieparts ol{
+	display: none;
 	font-size: 1em; /* 20px */
     }
     
+			
 	#pantypes{
 	-moz-column-count: 1;
 	}
@@ -636,12 +665,15 @@ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	width: 80%;
 	margin: 0 auto;
 	}
-
+	
+	#crusty{
+	font-size: 1.5em;
+	}
+	
 	article{
 	float: none;
 	width: 80%;
 	height: 100%;
-	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	margin:0 auto;
 	padding: 0;
@@ -656,13 +688,18 @@ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	height: 100%;
 	background: none;
 	border-bottom-right-radius: 0;
-	border-bottom: 1px solid #000;
+	box-shadow: none;
 	margin: 0 auto;
 	padding: 0;
 	}
 	
+	#fact{
+	font-size: 1.5em;
+	}
+	
 	aside p{
 	display: none;
+	
 	}
 	
 	#gallery{
@@ -694,12 +731,36 @@ Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	width: 100%;
 	}
 	
-	footer li{
-	font-size: .8em;
-	margin: 0% 2%;
+	table{
+	width: 75%;
+	float: none;
+	margin: 0 auto;
+	border-radius: 5%;
+	
 	}
 	
+	form{
+	width: 73%;
+	margin: 3% auto;
+	padding: 2.222222
+	border-radius: none;
+	border-radius: 5%;
+	box-shadow: -1px 1px 2px #333;
+	}
 	
+	button{
+	font-size: 1.2em;
+	}
+	
+	footer li{
+	font-size: .8em;
+	margin: 0% auto;
+	}
+	
+	input[type=text]{
+	width: 90%;
+	margin: 0 5%;
+	}
 	
 
 	
