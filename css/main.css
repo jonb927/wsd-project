@@ -70,6 +70,7 @@ height: 100px;
 background-color: #bc3a46;
 background: -webkit-gradient(linear, left top, left bottom, from(#bc3a46), to(#ac0a19));
 background: -moz-linear-gradient(top,  #bc3a46,  #ac0a19);
+background: -o-linear-gradient(top,  #bc3a46,  #ac0a19);
 border-radius: 10px;
 box-shadow: 0px 2px 3px #730e0e;
 margin:1.111111% 2%; /*10px 0*/
