@@ -174,6 +174,7 @@ text-decoration: none;
 text-shadow: 0 1px 1px #aaa;
 color: #56340e;
 background: -moz-radial-gradient(25% 35%, farthest-corner, #fbf2da, #f1e9a0);
+background: -webkit-radial-gradient(25% 35%, farthest-corner, #fbf2da 0%,#f1e9a0 100%); /* Chrome10+,Safari5.1+ */
 border-top: 1px solid #fbf2da;
 border-left: 1px solid #fbf2da;
 border-bottom: 2px solid #fff9f2;
@@ -334,6 +335,7 @@ margin: 0 2%;
 padding: 2.222222%;
 float:right;
 background: -moz-radial-gradient(45% 55%, farthest-corner, #ddc0a0, #c7a177);
+background: -webkit-radial-gradient(45% 55%, farthest-corner, #ddc0a0 0%,#c7a177 100%); /* Chrome10+,Safari5.1+ */
 border-top-left-radius: 5%;
 border-top-right-radius: 5%;
 border-bottom-right-radius: 5%;
@@ -367,6 +369,7 @@ width: 45%;
 margin: 1% 2%;
 padding: 1.111111%;
 background: -moz-radial-gradient(55% 55%, farthest-corner, #b8d9a2, #8aba6a);
+background: -webkit-radial-gradient(55% 55%, farthest-corner, #b8d9a2 0%,#8aba6a 100%); /* Chrome10+,Safari5.1+ */
 border-top-left-radius: 5%;
 border-top-right-radius: 5%;
 border-bottom-right-radius: 60% 60%;
@@ -388,6 +391,7 @@ text-shadow: 0 1px 1px #000;
 button{
 width: 40%;
 background: -moz-radial-gradient(25% 35%, farthest-corner, #fbf2da, #f1e9a0);
+background: -webkit-radial-gradient(25% 35%, farthest-corner, #fbf2da 0%,#f1e9a0 100%); /* Chrome10+,Safari5.1+ */
 height: 50px;
 font-size: 1.425em;
 color: #56340e;
@@ -400,6 +404,7 @@ box-shadow: 0 1px 1px #555;
 }
 
 button:hover{
+background: -webkit-gradient(linear, left top, left bottom, from(#f1e9a0), to(#ecd69c));
 background: -moz-linear-gradient(top,  #f1e9a0,  #ecd69c);
 border: 1px solid #56340e;
 border-radius: 50%;
