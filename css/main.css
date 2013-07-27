@@ -92,6 +92,7 @@ padding: 1.111111% 0; /*10px 0*/
 nav ul{
 background: -webkit-gradient(linear, left top, left bottom, from(#bc3a46), to(#ac0a19));
 background: -moz-linear-gradient(top,  #bc3a46,  #ac0a19);
+background: -o-linear-gradient(#bc3a46,  #ac0a19);
 list-style-type: none;
 border-radius: 10px;
 box-shadow: 0px 2px 3px #730e0e;
@@ -122,12 +123,14 @@ text-shadow: -1px 1px 2px #111;
 nav li a:hover{
 background: -webkit-gradient(linear, left top, left bottom, from(#ac0a19), to(#bc3a46));
 background: -moz-linear-gradient(top,  #ac0a19, #bc3a46);
+background: -o-linear-gradient(#ac0a19, #bc3a46);
 }
 
 nav li a:active{
 background-color: #ac0a19;
 background: -webkit-gradient(linear, left top, left bottom, from(#ac0a19), to(#bc3a46));
 background: -moz-linear-gradient(top,  #ac0a19, #bc3a46);
+background: -o-linear-gradient(#ac0a19, #bc3a46);
 opacity: 0.5;
 }
 
@@ -176,6 +179,7 @@ text-shadow: 0 1px 1px #aaa;
 color: #56340e;
 background: -moz-radial-gradient(25% 35%, farthest-corner, #fbf2da, #f1e9a0);
 background: -webkit-radial-gradient(25% 35%, farthest-corner, #fbf2da 0%,#f1e9a0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(25% 35%, farthest-corner, #fbf2da 0%,#f1e9a0 100%);
 border-top: 1px solid #fbf2da;
 border-left: 1px solid #fbf2da;
 border-bottom: 2px solid #fff9f2;
@@ -337,6 +341,7 @@ padding: 2.222222%;
 float:right;
 background: -moz-radial-gradient(45% 55%, farthest-corner, #ddc0a0, #c7a177);
 background: -webkit-radial-gradient(45% 55%, farthest-corner, #ddc0a0 0%,#c7a177 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(45% 55%, farthest-corner, #ddc0a0 0%,#c7a177 100%);
 border-top-left-radius: 5%;
 border-top-right-radius: 5%;
 border-bottom-right-radius: 5%;
@@ -371,6 +376,7 @@ margin: 1% 2%;
 padding: 1.111111%;
 background: -moz-radial-gradient(55% 55%, farthest-corner, #b8d9a2, #8aba6a);
 background: -webkit-radial-gradient(55% 55%, farthest-corner, #b8d9a2 0%,#8aba6a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(55% 55%, farthest-corner, #b8d9a2 0%,#8aba6a 100%);
 border-top-left-radius: 5%;
 border-top-right-radius: 5%;
 border-bottom-right-radius: 60% 60%;
@@ -393,6 +399,7 @@ button{
 width: 40%;
 background: -moz-radial-gradient(25% 35%, farthest-corner, #fbf2da, #f1e9a0);
 background: -webkit-radial-gradient(25% 35%, farthest-corner, #fbf2da 0%,#f1e9a0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(25% 35%, farthest-corner, #fbf2da 0%,#f1e9a0 100%);
 height: 50px;
 font-size: 1.425em;
 color: #56340e;
@@ -407,6 +414,7 @@ box-shadow: 0 1px 1px #555;
 button:hover{
 background: -webkit-gradient(linear, left top, left bottom, from(#f1e9a0), to(#ecd69c));
 background: -moz-linear-gradient(top,  #f1e9a0,  #ecd69c);
+background: -o-linear-gradient(#f1e9a0,  #ecd69c);
 border: 1px solid #56340e;
 border-radius: 50%;
 box-shadow: 0 1px 1px #333;
@@ -460,12 +468,14 @@ footer li a:hover{
 background-color: #ac0a19;
 background: -webkit-gradient(linear, left top, left bottom, from(#ac0a19), to(#bc3a46));
 background: -moz-linear-gradient(top,  #ac0a19, #bc3a46);
+background: -o-linear-gradient(#ac0a19, #bc3a46);
 }
 
 footer li a:active{
 background-color: #ac0a19;
 background: -webkit-gradient(linear, left top, left bottom, from(#ac0a19), to(#bc3a46));
 background: -moz-linear-gradient(top,  #ac0a19, #bc3a46);
+background: -o-linear-gradient(#ac0a19, #bc3a46);
 opacity: 0.5;
 }
 
