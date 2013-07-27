@@ -130,6 +130,10 @@ background: -moz-linear-gradient(top,  #ac0a19, #bc3a46);
 opacity: 0.5;
 }
 
+nav ul ul {
+display:none;
+}
+
 /* featured headline ********************************************* */
 
 #feature{
